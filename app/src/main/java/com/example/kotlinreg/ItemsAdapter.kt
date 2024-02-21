@@ -1,5 +1,6 @@
 package com.example.kotlinreg
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
@@ -27,10 +28,19 @@ class ItemsAdapter(var items: List<Item>, var context: Context) : RecyclerView.A
        return items.count()
     }
 
+    @SuppressLint("DiscouragedApi")
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
         holder.title.text = items[position].title
         holder.desk.text = items[position].desc
         holder.price.text = items[position].price.toString()
+
+        val imageId = context.resources.getIdentifier(
+            items[position].image,
+            "drawable",
+            context.packageName
+        )
+
+        holder.image.setImageResource(imageId)
 
     }
 }
