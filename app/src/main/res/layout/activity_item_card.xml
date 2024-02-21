@@ -8,6 +8,13 @@
     android:background="@color/brown"
     tools:context=".ItemCardActivity">
 
+    <ImageView
+        android:id="@+id/item_card_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        tools:srcCompat="@tools:sample/avatars" />
+
     <TextView
         android:id="@+id/item_list_titleOne"
         android:paddingHorizontal="20dp"
@@ -22,7 +29,7 @@
     <TextView
         android:id="@+id/item_list_text"
         android:paddingHorizontal="20dp"
-        android:paddingVertical="10dp"
+        android:paddingVertical="5sp"
         android:textSize="19dp"
         android:textStyle="bold"
         android:textColor="@color/black"
@@ -35,15 +42,11 @@
         android:paddingHorizontal="20dp"
         android:layout_width="120dp"
         android:layout_gravity="end"
+        android:paddingVertical="10dp"
         android:backgroundTint="@color/black"
         android:layout_height="wrap_content"
         android:text="@string/crd_btn"/>
 
-    <ImageView
-        android:id="@+id/item_card_image"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:scaleType="fitCenter"
-        tools:srcCompat="@tools:sample/avatars" />
+
 
 </LinearLayout>
