@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         val linkToAuth: TextView = findViewById(R.id.LinkToAuth)
 
         linkToAuth.setOnClickListener {
-            val intent = Intent(this, AuthActivity2::class.java)
+            val intent = Intent(this, AuthActivity::class.java)
             startActivity(intent)
         }
 

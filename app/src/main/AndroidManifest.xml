@@ -17,10 +17,7 @@
         android:theme="@style/Theme.KotlinReg"
         tools:targetApi="31">
         <activity
-            android:name=".ItemsMainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AuthActivity2"
+            android:name=".AuthActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
