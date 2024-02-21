@@ -40,9 +40,6 @@ class AuthActivity : AppCompatActivity() {
 
                     val intent = Intent(this, ItemsActivity::class.java)
                     startActivity(intent)
-
-                    /*val intent = Intent(this, ::class.java)
-                    startActivity(intent)*/
                 } else
                     makeText(this, "Пользователь $login не существует!!", LENGTH_LONG).show()
 
