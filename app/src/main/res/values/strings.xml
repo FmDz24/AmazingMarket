@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AmazingMarket</string>
+    <string name="hello_txt">Создайте аккаунт</string>
+    <string name="db_txt">Кость динозавра</string>
+    <string name="title_activity_auth">AuthActivity</string>
+    <string name="dummy_button">Dummy Где же оно?</string>
+    <string name="dummy_content">А это что?</string>
+    <string name="psw_hint">Введите пароль</string>
+    <string name="mail_hint">Введите email</string>
+    <string name="rg_btn_title">Регистрация</string>
+    <string name="sign_in_txt">У меня есть аккаунт, войти</string>
+    <string name="login_in_txt">Введите логин</string>
+</resources>
