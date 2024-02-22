@@ -11,9 +11,10 @@
     <string name="sign_in_txt">У меня есть аккаунт, войти</string>
     <string name="login_in_txt">Введите логин</string>
     <string name="tovars_txt">Товары</string>
-    <string name="list_btn">Подробнее</string>
+    <string name="list_btn">Описание</string>
     <string name="crd_btn">Добавить в корзину</string>
     <string name="cat_txt">Натуральный продукт. Изготовлено исключительно из домашних кошек естественного происхождения. Беречь от детей! Содержание алкоголя 75%</string>
+    <string name="temp_txt">Temporal text</string>
 
 
 </resources>
